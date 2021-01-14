@@ -1,6 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:wght@300&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:wght@300&display=swap');
 /* font-family: 'Alata', sans-serif;
 font-family: 'Josefin Sans', sans-serif; */
+
 * {
   margin: 0;
   padding: 0;
@@ -12,7 +13,7 @@ body {
 }
 
 header {
-  background-image: url("./images/desktop/image-hero.jpg");
+  background-image: url('./images/desktop/image-hero.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   height: 50%;
@@ -28,5 +29,3 @@ nav ul {
   display: flex;
   list-style-type: none;
 }
-
-/*# sourceMappingURL=style.css.map */
