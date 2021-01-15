@@ -15,22 +15,44 @@ $very-dark-gray: hsl(0, 0%, 41%);
 
 body {
   height: 100vh;
+  font-family: 'Alata', sans-serif;
 }
 
 header {
-  background-image: url('./images/desktop/image-hero.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
+  display: flex;
+  flex-direction: column;
   height: 50%;
-}
 
-nav {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
+  .background-full {
+    background-image: url('./images/desktop/image-hero.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 100%;
+  }
 
-nav ul {
-  display: flex;
-  list-style-type: none;
+  nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 2rem;
+
+    ul {
+      display: flex;
+      list-style-type: none;
+
+      li {
+        a {
+          text-decoration: none;
+          padding-left: 1rem;
+          color: $white;
+        }
+      }
+    }
+  }
+
+  .nav-text {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 3rem;
+    color: $white;
+  }
 }
